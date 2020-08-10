@@ -1,0 +1,60 @@
+body {
+  background-color: #00a000;
+  font-family: 'Bubblegum sans';
+}
+
+#websites {
+  color:cyan;
+  
+}
+
+a#listed {
+  color:turquoise;
+}
+button {
+  padding: 5px 10px;
+  font-size: 15px;
+  border: none;
+  color: #fff;
+  background-color: springgreen;
+  border-radius: 10px;
+}
+
+button:hover {background-color:mediumspringgreen}
+
+button:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.dropdown {
+  background-color:springgreen;
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.dropdown:hover {
+  background-color:mediumspringgreen;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: springgreen;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  background-color: darkturquoise;
+  display:block;
+}
+
+
