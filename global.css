@@ -1,6 +1,8 @@
 body {
   background-color: #00a000;
   font-family: 'Bubblegum sans';
+  margin:2px;
+  
 }
 
 #websites {
@@ -57,4 +59,7 @@ button:hover {
   display:block;
 }
 
-
+#blup {
+  height:3em;
+  min-width:10em;
+}
