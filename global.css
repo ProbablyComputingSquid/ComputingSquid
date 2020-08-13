@@ -7,12 +7,18 @@ body {
 
 #websites {
   color:cyan;
-  
 }
 
 a#listed {
   color:turquoise;
 }
+
+hr {
+  background-color: #000000;
+  border: 1px solid #000000;
+  width: 100px;
+}
+
 button {
   padding: 5px 10px;
   font-size: 15px;
@@ -22,21 +28,21 @@ button {
   border-radius: 10px;
 }
 
-button:hover {background-color:mediumspringgreen}
-
 button:active {
   background-color: #3e8e41;
   transform: translateY(4px);
 }
 
-
 button:hover {
+  background-color:mediumspringgreen;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .dropdown {
   background-color:springgreen;
+  padding: 0 5px;
   position: relative;
+  margin: 5px;
   display: inline-block;
   border-radius: 10px;
 }
@@ -44,7 +50,9 @@ button:hover {
 .dropdown:hover {
   background-color:mediumspringgreen;
 }
+
 .dropdown-content {
+  border-radius: 10px;
   display: none;
   position: absolute;
   background-color: springgreen;
