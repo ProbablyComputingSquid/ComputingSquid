@@ -9,8 +9,24 @@ body {
   color:cyan;
 }
 
-a#listed {
-  color:turquoise;
+a {
+  text-decoration: none;
+}
+
+ul a {
+  color: darkblue;
+}
+
+ol a {
+  color: darkblue;
+}
+
+a:visited {
+  color:mediumblue;
+}
+
+a:hover {
+  color: midnightblue;
 }
 
 hr {
@@ -23,9 +39,11 @@ button {
   padding: 5px 10px;
   font-size: 15px;
   border: none;
-  color: #fff;
+  color:#000000;
   background-color: springgreen;
   border-radius: 10px;
+  outline: none;
+  font-family: 'Bubblegum Sans';
 }
 
 button:active {
@@ -40,7 +58,7 @@ button:hover {
 
 .dropdown {
   background-color:springgreen;
-  padding: 0 5px;
+  padding: 0 20px;
   position: relative;
   margin: 5px;
   display: inline-block;
@@ -49,6 +67,7 @@ button:hover {
 
 .dropdown:hover {
   background-color:mediumspringgreen;
+  box-shadow: 5px 5px #808080
 }
 
 .dropdown-content {
@@ -70,4 +89,21 @@ button:hover {
 #blup {
   height:3em;
   min-width:10em;
+}
+
+#gray {
+  color:gray;
+}
+
+#long {
+  width:95%;
+}
+
+
+div.dropdown-content#black {
+  color: black;
+}
+
+#big {
+  font-size:1000%;
 }
