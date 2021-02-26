@@ -105,5 +105,17 @@ div.dropdown-content#black {
 }
 
 #big {
-  font-size:1000%;
+  font-size:10rem;
+}
+
+h6 {
+font-size: 5px;
+}
+
+#big-ish {
+  font-size: 8rem;
+}
+
+#tiny {
+  font-size:0.2em;
 }
